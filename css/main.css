@@ -57,7 +57,8 @@ main img {
 
 h2 {
   font-size: 36px;
-  padding: 25px 79px 10px 78px;
+  /* padding: 25px 79px 10px 78px; */
+  padding-top: 23px;
 }
 
 .title-starter-set {
@@ -83,7 +84,10 @@ h3 {
   margin: 38px 0px 12px 0px;
 }
 
-img {
+/* img {
+} */
+
+.img-pack {
   background-color: red;
   padding: 25px 89px 25px 90px;
 }
@@ -102,6 +106,8 @@ a {
 
 footer {
   background-image: url(../images/background.png);
+  width: 419px;
+  height: 343px;
   padding-bottom: 38px;
 }
 
@@ -140,4 +146,10 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.title-container {
+  padding: 25px 78px 15px 78px;
+  border-bottom: solid red 2px;
+  margin-bottom: 22px;
 }
